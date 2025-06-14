@@ -82,6 +82,12 @@ a:hover, a:active {
     margin: 0;
 }
 
+nav ul li a {
+    white-space: nowrap;      /* 改行を防ぐ */
+    overflow: hidden;         /* 内容がはみ出る場合は隠す（任意） */
+    text-overflow: ellipsis;  /* 省略記号をつける（任意） */
+}
+
 /*
 # Header Bar Email
 --------------------------------*/
